@@ -2,8 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://jeffwu-1999.github.io/posts/%E9%9D%A2%E7%BB%8F/</loc><lastmod>2022-09-20T20:18:49&#43;08:00</lastmod></url><url>
+            <loc>https://jeffwu-1999.github.io/posts/helloworld/</loc><lastmod>2022-09-20T20:18:49&#43;08:00</lastmod></url><url>
             <loc>https://jeffwu-1999.github.io/posts/</loc><lastmod>2022-09-20T20:18:49&#43;08:00</lastmod></url><url>
+            <loc>https://jeffwu-1999.github.io/posts/test/</loc><lastmod>2022-09-20T20:18:49&#43;08:00</lastmod></url><url>
             <loc>https://jeffwu-1999.github.io/</loc><lastmod>2022-09-20T20:18:49&#43;08:00</lastmod></url><url>
             <loc>https://jeffwu-1999.github.io/categories/</loc></url><url>
             <loc>https://jeffwu-1999.github.io/tags/</loc></url></urlset>
