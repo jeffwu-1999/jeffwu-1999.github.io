@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wuzf_1999@163.com (JeffWu)</managingEditor>
             <webMaster>wuzf_1999@163.com (JeffWu)</webMaster><lastBuildDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>华为软件雏鹰计划-工具学习（Git and IDEA）</title>
-    <link>http://example.org/posts/toollearning/</link>
+    <link>http://example.org/posts/tool_learning/</link>
     <pubDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</pubDate>
     <author>JeffWu</author>
-    <guid>http://example.org/posts/toollearning/</guid>
+    <guid>http://example.org/posts/tool_learning/</guid>
     <description><![CDATA[1.Git常用命令 工程准备 git clone 查看工作区 git diff git status 文件修改后提交推送 工作区 git add/ git rm/ git mv 本地仓库 git commit 远端仓库 git push 查看日志 git log 分支管理 列出 git branch 新建]]></description>
 </item>
 <item>
