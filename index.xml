@@ -12,7 +12,7 @@
     <pubDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</pubDate>
     <author>JeffWu</author>
     <guid>http://example.org/posts/tool_learning/</guid>
-    <description><![CDATA[1.Git常用命令 工程准备 git clone 查看工作区 git diff git status 文件修改后提交推送 工作区 git add/ git rm/ git mv 本地仓库 git commit 远端仓库 git push 查看日志 git log 分支管理 列出 git branch 新建]]></description>
+    <description><![CDATA[p{ text-indent: 2em; /*首行缩进2个文字大小空间*/ } 1.Git简介 版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统，方便查看]]></description>
 </item>
 <item>
     <title>MIT6.824（分布式系统）课程相关记录</title>
