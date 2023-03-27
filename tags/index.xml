@@ -4,5 +4,13 @@
         <link>http://example.org/tags/</link>
         <description>Tags - Tag - 大梦想家</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wuzf_1999@163.com (JeffWu)</managingEditor>
-            <webMaster>wuzf_1999@163.com (JeffWu)</webMaster><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>wuzf_1999@163.com (JeffWu)</webMaster><lastBuildDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>华为</title>
+    <link>http://example.org/tags/%E5%8D%8E%E4%B8%BA/</link>
+    <pubDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</pubDate>
+    <author>JeffWu</author>
+    <guid>http://example.org/tags/%E5%8D%8E%E4%B8%BA/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
