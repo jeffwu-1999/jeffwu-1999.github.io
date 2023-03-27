@@ -5,12 +5,12 @@
         <description>All Posts | 大梦想家</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wuzf_1999@163.com (JeffWu)</managingEditor>
             <webMaster>wuzf_1999@163.com (JeffWu)</webMaster><lastBuildDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>华为软件雏鹰计划-Git</title>
-    <link>http://example.org/posts/gitlearning/</link>
+    <title>华为软件雏鹰计划-工具学习（Git and IDEA）</title>
+    <link>http://example.org/posts/toollearning/</link>
     <pubDate>Mon, 27 Mar 2023 23:37:25 &#43;0800</pubDate>
     <author>JeffWu</author>
-    <guid>http://example.org/posts/gitlearning/</guid>
-    <description><![CDATA[1. 请你说一说用户态和内核态区别 为了区分不同的程序的不同权限，人们发明了内核态和用户态的概念。 用户态和内核态是操作系统的两种运行级别，两者最大]]></description>
+    <guid>http://example.org/posts/toollearning/</guid>
+    <description><![CDATA[1.Git常用命令 工程准备 git clone 查看工作区 git diff git status 文件修改后提交推送 工作区 git add/ git rm/ git mv 本地仓库 git commit 远端仓库 git push 查看日志 git log 分支管理 列出 git branch 新建]]></description>
 </item>
 <item>
     <title>MIT6.824（分布式系统）课程相关记录</title>
