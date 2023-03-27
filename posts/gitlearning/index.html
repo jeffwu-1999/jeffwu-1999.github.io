@@ -4,32 +4,32 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>操作系统用户态到内核态的转化原理 - 大梦想家</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="操作系统用户态到内核态的转化原理" />
+        <title>华为软件雏鹰计划-Git - 大梦想家</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="华为软件雏鹰计划-Git" />
 <meta property="og:description" content="1. 请你说一说用户态和内核态区别 为了区分不同的程序的不同权限，人们发明了内核态和用户态的概念。 用户态和内核态是操作系统的两种运行级别，两者最大" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://example.org/posts/gitlearning/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-10-19T16:00:25+08:00" />
-<meta property="article:modified_time" content="2022-10-19T16:00:25+08:00" /><meta property="og:site_name" content="My cool site" />
+
+<meta property="og:site_name" content="My cool site" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="操作系统用户态到内核态的转化原理"/>
+<meta name="twitter:title" content="华为软件雏鹰计划-Git"/>
 <meta name="twitter:description" content="1. 请你说一说用户态和内核态区别 为了区分不同的程序的不同权限，人们发明了内核态和用户态的概念。 用户态和内核态是操作系统的两种运行级别，两者最大"/>
 <meta name="application-name" content="大梦想家">
 <meta name="apple-mobile-web-app-title" content="大梦想家"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/gitlearning/" /><link rel="prev" href="http://example.org/posts/mit6_824/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/gitlearning/" /><link rel="next" href="http://example.org/posts/mit6_824/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "操作系统用户态到内核态的转化原理",
+        "headline": "华为软件雏鹰计划-Git",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/posts\/gitlearning\/"
         },"genre": "posts","wordcount":  2197 ,
-        "url": "http:\/\/example.org\/posts\/gitlearning\/","datePublished": "2022-10-19T16:00:25+08:00","dateModified": "2022-10-19T16:00:25+08:00","publisher": {
+        "url": "http:\/\/example.org\/posts\/gitlearning\/","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -45,7 +45,7 @@
             <a href="/" title="大梦想家">大梦想家</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about%E7%9A%84%E5%89%AF%E6%9C%AC/" title="关于"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/" title="关于"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -87,7 +87,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about%E7%9A%84%E5%89%AF%E6%9C%AC/" title="关于">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="关于">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a></div>
     </div>
@@ -100,9 +100,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">操作系统用户态到内核态的转化原理</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">华为软件雏鹰计划-Git</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JeffWu</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-19">2022-10-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2197 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2197 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -191,12 +191,12 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2022-10-19</span>
+                <span>Updated on 0001-01-01</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/gitlearning/" data-title="操作系统用户态到内核态的转化原理"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 百度" data-sharer="baidu" data-url="http://example.org/posts/gitlearning/" data-title="操作系统用户态到内核态的转化原理"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/baidu.svg" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/gitlearning/" data-title="华为软件雏鹰计划-Git"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 百度" data-sharer="baidu" data-url="http://example.org/posts/gitlearning/" data-title="华为软件雏鹰计划-Git"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/baidu.svg" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -208,7 +208,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/mit6_824/" class="prev" rel="prev" title="MIT6.824（分布式系统）课程相关记录"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>MIT6.824（分布式系统）课程相关记录</a></div>
+    <div class="post-nav">
+            <a href="/posts/mit6_824/" class="next" rel="next" title="MIT6.824（分布式系统）课程相关记录">MIT6.824（分布式系统）课程相关记录<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

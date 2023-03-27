@@ -4,23 +4,23 @@
         <link>http://example.org/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wuzf_1999@163.com (JeffWu)</managingEditor>
-            <webMaster>wuzf_1999@163.com (JeffWu)</webMaster><lastBuildDate>Wed, 19 Oct 2022 16:00:25 &#43;0800</lastBuildDate>
+            <webMaster>wuzf_1999@163.com (JeffWu)</webMaster><lastBuildDate>Thu, 22 Sep 2022 11:52:07 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>操作系统用户态到内核态的转化原理</title>
-    <link>http://example.org/posts/gitlearning/</link>
-    <pubDate>Wed, 19 Oct 2022 16:00:25 &#43;0800</pubDate>
-    <author>JeffWu</author>
-    <guid>http://example.org/posts/gitlearning/</guid>
-    <description><![CDATA[1. 请你说一说用户态和内核态区别 为了区分不同的程序的不同权限，人们发明了内核态和用户态的概念。 用户态和内核态是操作系统的两种运行级别，两者最大]]></description>
-</item>
-<item>
     <title>MIT6.824（分布式系统）课程相关记录</title>
     <link>http://example.org/posts/mit6_824/</link>
     <pubDate>Thu, 22 Sep 2022 11:52:07 &#43;0800</pubDate>
     <author>JeffWu</author>
     <guid>http://example.org/posts/mit6_824/</guid>
     <description><![CDATA[最近秋招找工作，可能是简历上有分布式存储相关（比较水）的实习，被问到了很多关于存储、分布式、一致性、容错相关的盲区问题。所以就从知乎上了解到了这一门神课，正好对分布式也比较感兴趣。]]></description>
+</item>
+<item>
+    <title>华为软件雏鹰计划-Git</title>
+    <link>http://example.org/posts/gitlearning/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>JeffWu</author>
+    <guid>http://example.org/posts/gitlearning/</guid>
+    <description><![CDATA[1. 请你说一说用户态和内核态区别 为了区分不同的程序的不同权限，人们发明了内核态和用户态的概念。 用户态和内核态是操作系统的两种运行级别，两者最大]]></description>
 </item>
 </channel>
 </rss>
